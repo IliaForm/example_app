@@ -14,6 +14,7 @@ gem 'mysql2', '0.2.6'
  group :test do
   gem 'rspec', '2.5.0'
   gem 'webrat', '0.7.1'
+  gem 'spork', '0.9.0.rc5'
  end 
  
 # Use unicorn as the web server
