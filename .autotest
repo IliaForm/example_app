@@ -1,0 +1,10 @@
+# encoding: utf-8   
+# Подключаем test_notifer   
+require "test_notifier/runner/autotest"
+ 
+Autotest.add_hook :initialize do |at|
+    # Добавляем в исключения репозиторий mercurial
+    at.add_exception(%r{^\./\.hg})
+    # Для любителей git'а
+    # at.add_exception(%r{^\./\.git}) 
+end
