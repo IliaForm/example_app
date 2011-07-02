@@ -13,7 +13,9 @@ Dir[Rails.root.join("spec/support/**/*.rb")].each {|f| require f}
 
 RSpec.configure do |config|
   # == Mock Framework
-  #
+  def test_sign_in(user)
+    controller.sign_in(user)
+  end
   # If you prefer to use mocha, flexmock or RR, uncomment the appropriate line:
   #
   # config.mock_with :mocha
