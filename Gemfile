@@ -20,8 +20,9 @@ gem 'mysql2', '0.2.6'
   gem 'autotest'
   gem 'spork', '>=0.9.0.rc2'
   gem 'test_notifier'
- end 
- 
+  gem 'database_cleaner'
+ end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

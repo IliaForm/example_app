@@ -34,6 +34,7 @@ GEM
     autotest (4.4.6)
       ZenTest (>= 4.4.1)
     builder (2.1.2)
+    database_cleaner (0.6.7)
     diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
@@ -103,6 +104,7 @@ PLATFORMS
 DEPENDENCIES
   annotate-models (= 1.0.4)
   autotest
+  database_cleaner
   factory_girl_rails (= 1.0)
   gravatar_image_tag (= 1.0.0.pre2)
   mysql2 (= 0.2.6)
