@@ -32,6 +32,12 @@ require 'spec_helper'
         response.should be_success
       end
 
+
+      it "should not show delete link" do
+        get :index
+        response.should_not have_selector("a", :title => "delete")
+      end
+
       it "should have an element for each user" do
         get :index
         @users[0..2].each do |user|
@@ -295,6 +301,19 @@ end
       before(:each) do
         admin = Factory(:user, :email => "admin@example.com", :admin => true)
         test_sign_in(admin)
+      end
+
+      it "should not allow for admin to delete himself" do
+      	admin1 = Factory(:user, :email => "admin1@example.com", :admin => true)
+      	lambda do
+    	 delete :destroy, :id => admin1
+        end.should change(User, :count).by(0)
+      	response.should redirect_to(users_path)
+      end
+
+      it "should show delete link for admin" do
+        get :index
+        response.should_not have_selector("a", :title => "delete")
       end
 
       it "should destroy the user" do
