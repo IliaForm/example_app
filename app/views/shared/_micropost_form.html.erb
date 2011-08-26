@@ -1,8 +1,10 @@
 <%= form_for @micropost do |f| %>
   <%= render 'shared/error_messages', :object => f.object %>
   <div class="field">
-    <%= f.text_area :content %>
+    <%= f.text_area :content, id:'txt', onkeypress: 'return CheckLength()';%>
+     <p>Осталось <span id="info">140</span> символов.</p>
   </div>
+<%= javascript_tag do %>setInterval(CheckLength, 50)<% end %> 
   <div class="actions">
     <%= f.submit "Submit" %>
   </div>
