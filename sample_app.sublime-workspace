@@ -1,0 +1,190 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0,
+		"selected_items":
+		[
+		],
+		"width": 0
+	},
+	"console":
+	{
+		"height": 0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/ilia/ce/engine/spec_functional/clone_unix_instance.rb",
+		"/home/ilia/ce/engine/spec_functional/spec_helper.rb",
+		"/home/ilia/sample_app/config/database.yml",
+		"/home/ilia/ce/engine/spec_functional/disks_unix_spec.rb",
+		"/home/ilia/ce/engine/lib/api/api_client.rb",
+		"/home/ilia/ce/engine/lib/api/scalaxy.rb",
+		"/home/ilia/ce/engine/lib/batch_command/xen.rb",
+		"/home/ilia/ce/engine/app/models/billing_operation.rb",
+		"/home/ilia/ce/engine/db/schema.rb",
+		"/home/ilia/ce/engine/app/views/notifier/incoming_payment_email.erb",
+		"/home/ilia/ce/engine/app/models/batch/instance_start.rb",
+		"/home/ilia/ce/engine/db/seeds.rb",
+		"/home/ilia/ce/engine/app/views/templates/_promised_payment.html.erb",
+		"/home/ilia/ce/engine/config/database.yml",
+		"/home/ilia/ce/engine/config/config.yml",
+		"/home/ilia/ce/engine/app/controllers/instances_controller.rb",
+		"/home/ilia/ce/engine/app/models/batch/instance_create.rb",
+		"/home/ilia/ce/engine/app/models/batch/instance_clone.rb",
+		"/home/ilia/.config/sublime-text-2/Packages/Default/Base File.sublime-settings",
+		"/home/ilia/ce/engine/Gemfile",
+		"/home/ilia/ce/engine/spec_functional/disks_windows_spec.rb",
+		"/home/ilia/ce/engine/config/config.yml.example"
+	],
+	"find":
+	{
+		"height": 42
+	},
+	"find_in_files":
+	{
+		"height": 87,
+		"include_history":
+		[
+			""
+		],
+		"location_history":
+		[
+			"/home/ilia/ce/engine",
+			"<open files>",
+			"/home/ilia/ce/engine"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"resize",
+			"BillingOperation.new",
+			"last_week_debit",
+			"avgExpenses",
+			"def make_xm_create",
+			"run_instance",
+			"qwe",
+			"clear",
+			"result",
+			"symbolize_keys",
+			"parsed_response",
+			"def check_params",
+			"clear",
+			"clone_instance",
+			"base_uri",
+			"storage_server",
+			"stub",
+			"storage_server",
+			"def get_instance",
+			"def check_params",
+			"def create_ins",
+			"defcreate_ins",
+			"defcreate_insr",
+			"def check_params",
+			"check_params",
+			"clear_project",
+			"call_and_check",
+			"def call_and_check",
+			"stub"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0
+	},
+	"input":
+	{
+		"height": 0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0,
+			1
+		],
+		"rows":
+		[
+			0,
+			1
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0,
+		"selected_items":
+		[
+		],
+		"width": 0
+	},
+	"select_project":
+	{
+		"height": 0,
+		"selected_items":
+		[
+		],
+		"width": 0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 348,
+	"status_bar_visible": true
+}

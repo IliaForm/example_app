@@ -9,6 +9,17 @@ describe User do
               :password_confirmation => "foobar" }
   end
 
+   describe 'relationships' do 
+   	 before :each do
+   	   @user = User.create!(@attr)
+   	   @followed = Factory :user
+   	 end
+   	 
+   	 it 'should respond relationships attribur' do
+   	   @user.should respond_to :relationships
+   	 end
+   end 
+
   it "should create a new instance given valid attributes" do
     User.create!(@attr)
   end

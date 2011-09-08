@@ -29,7 +29,7 @@ GEM
       activemodel (= 3.0.7)
       activesupport (= 3.0.7)
     activesupport (3.0.7)
-    annotate-models (1.0.4)
+    annotate (2.4.0)
     arel (2.0.10)
     autotest (4.4.6)
       ZenTest (>= 4.4.1)
@@ -104,7 +104,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  annotate-models (= 1.0.4)
+  annotate
   autotest
   database_cleaner
   factory_girl_rails (= 1.0)
@@ -114,7 +114,7 @@ DEPENDENCIES
   rails (= 3.0.7)
   rake (= 0.9.1)
   rspec (= 2.5.0)
-  rspec-rails (= 2.5.0)
+  rspec-rails
   spork (>= 0.9.0.rc2)
   test_notifier
   webrat (= 0.7.1)
