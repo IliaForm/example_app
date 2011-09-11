@@ -10,6 +10,14 @@ describe "Microposts" do
     click_button
   end 
 
+  it 'should test delete link' do
+  	other_user = Factory :user, :email => Factory.next(:email)
+  	micropost = Factory :micropost, :user => other_user
+  	visit user_path(other_user)
+  	response.should_not have_selector "a", :content => 'delete'
+  end  
+
+
   describe "creation" do
 
     describe "failure" do
