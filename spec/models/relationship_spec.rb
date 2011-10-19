@@ -45,4 +45,21 @@ describe Relationship do
       @relationship.followed.should == @followed
     end
   end
+
+  describe "relationship associations" do
+
+  	before(:each) do
+      @relationship.save
+    end
+
+  	it 'should destroy relationship if follower destroyed' do
+  	  @follower.destroy
+  	  Relationship.find_by_followed_id(@followed).should be_nil
+  	end
+
+  	it 'should destroy relationship if followed destroyed' do
+  	  @followed.destroy
+  	  Relationship.find_by_follower_id(@follower).should be_nil
+  	end
+  end
 end
